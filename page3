@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Surprise Attack</title>
+
+  <style>
+
+    body,html{
+      width:100%;
+      height:100%;
+    }
+
+    #first{
+      background-image: url("1.5.gif");
+
+      height:100%;
+      width: 50%;
+
+      float: left;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    #tiger{
+      background-image: url("2.4.gif");
+      height:100%;
+      width: 50%;
+
+      float: right;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    #danger{
+      position:absolute;
+      top:100px;
+      left:600px;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+<div id="first">
+</div>
+
+<div id="tiger">
+</div>
+
+<div id="danger">
+  <a href="page4">
+    <img src="Words3.gif" alt="The words defend yourself flashing" width="250px"></a>
+  </div>
+
+</body>
+</html>
